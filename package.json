@@ -1,0 +1,21 @@
+{
+  "name": "react-native-helper-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "react": "18.1.0",
+    "react-native": "0.70.0",
+    "react-navigation": "^6.0.0",
+    "react-navigation-stack": "^2.10.4"
+  },
+  "devDependencies": {
+    "babel-preset-react-native": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
