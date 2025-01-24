@@ -1,16 +1,16 @@
-import React from 'react';
-import { View, Text, Button, StyleSheet } from 'react-native';
-import { validateEmail } from './utils/formValidation'; // Importing helper function
-import { CustomButton } from './components/CustomButton'; // Importing reusable component
+import React from "react";
+import { View, Text, Button, StyleSheet } from "react-native";
+import { validateEmail } from "./utils/formValidation"; // Importing helper function
+import { CustomButton } from "./components/CustomButton"; // Importing reusable component
 
 // Main App Component
 const App = () => {
   const handlePress = () => {
-    const email = 'test@example.com';
+    const email = "yasir@724.one";
     if (validateEmail(email)) {
-      console.log('Valid Email:', email);
+      console.log("Valid Email:", email);
     } else {
-      console.log('Invalid Email:', email);
+      console.log("Invalid Email:", email);
     }
   };
 
@@ -26,13 +26,13 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#fff',
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#fff",
   },
   title: {
     fontSize: 24,
-    fontWeight: 'bold',
+    fontWeight: "bold",
     marginBottom: 20,
   },
 });
