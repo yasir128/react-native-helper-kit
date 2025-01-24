@@ -1,7 +1,7 @@
 
 ### How to Create Two Merges for the Badge
 
-1. **Create the `main` branch**: This will have all the initial files as described.
+1. **Create the (`main`) branch**: This will have all the initial files as described.
    
 2. **Create a new branch** (e.g., `feature-1`): 
    - In this branch, modify something small, like improving the README or refactoring one of the components.
@@ -19,7 +19,7 @@
 
 ### Final Structure of the Repository
 
-```plaintext
+// plaintext
 react-native-helper-kit/
 ├── components/
 │   └── CustomButton.js
